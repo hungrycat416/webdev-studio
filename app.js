@@ -26,8 +26,8 @@ const updatePage = async () => {
 
   // Make API request and get an array of fruit objects
   const fruitsArray = await apiRequest();
-  // console.log(fruitsArray);
-  // console.log(fruitsArray[1].nutritions.calories)
+  console.log(fruitsArray);
+  console.log(fruitsArray[1].nutritions.calories)
   function filterfunction(obj){
     return obj.nutritions.calories >= 100
   }
