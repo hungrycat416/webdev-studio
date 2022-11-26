@@ -11,12 +11,13 @@ Selects all image tags and makes them 500px;
 
 .parent-container{
   display: flex;
-  margin: 1rem; 
+  margin: 3rem; 
+  justify-items: center;
   
 
 }
 .child-container > img{
-  width: 70%;
+  width: 50%;
   margin-bottom: 2rem;
   border-radius: 2vw;
   
