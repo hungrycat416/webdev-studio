@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>WebDev Studio</title>
-    <!-- import javascript variables and functions -->
-    <script src="app.js" defer></script>
-    <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
-  </head>
 
-  <!-- page content goes into <body> -->
-  <body>
-    <div id="cs1300-gallery">
-      <h1>Welcome to my bakery</h1>
-      <p>Add your own images and styles!</p>
+<head>
+  <title>WebDev Studio</title>
+  <!-- import javascript variables and functions -->
+  <script src="app.js" defer></script>
+  <!-- import CSS styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
-      <div class="gallery-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+<!-- page content goes into <body> -->
+
+<body>
+  <div id="cs1300-gallery">
+    <h1>Welcome to Cs1300 bakery</h1>
+    <p> Our Menu</p>
+
+    <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+    <div class="parent-container">
+      <div class="row">
+        <div class="child-container">
+          <h3> $1.99</h3>
+          <img src="./assets/donuts.png" alt="a picture of an animated donut">
+          
+        </div>
+        <div class="child-container">
+          <h3> $2.99</h3>
+          <img src="./assets/chocolate_cake.png" alt="a picture of animated chocolate_cake">
+        </div>
+      </div>
+      <div class="row">
+        <h3> $3.99</h3>
+        <div class="child-container">
+          <img src="./assets/chrismas_cookies.png" alt="a picture of animated chrismas cookie">
+        </div>
+
+        <div class="child-container">
+          <h3> $4.99</h3>
+          <img src="./assets/croissant.png" alt="a picture of animated croissant">
+        </div>
+      </div>
+      <div class="row">
+        <h3> $1.99</h3>
+        <div class="child-container">
+          <img src="./assets/cookies.png" alt="a picture of animated cookie">
+        </div>
+        <div class="child-container">
+          <h3> $2.99</h3>
+          <img src="./assets/cupcake.png" alt="a picture of animated cupcake">
+        </div>
       </div>
 
-      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="updatePage()">Press this button to display some fruit data</button> -->
     </div>
-  </body>
+
+  </div>
+
+
+
+  <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
+  <button onclick="updatePage()">Press this button to display some fruit data</button>
+  </div>
+</body>
 
 </html>

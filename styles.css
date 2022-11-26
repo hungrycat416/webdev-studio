@@ -9,6 +9,39 @@ Selects all image tags and makes them 500px;
 /*  width: 500px;*/
 /*}*/
 
-.gallery-container {
-  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+.parent-container{
+  display: flex;
+  margin: 1rem; 
+  
+
 }
+.child-container > img{
+  width: 50%;
+  margin-bottom: 2rem;
+  border-radius: 2vw;
+  
+}
+.child-container > img:hover{
+  transform: scale(1.05);
+
+}
+
+
+/* .row{
+  justify-items:center;
+  flex-direction: row;
+
+  
+} */
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.button{
+  justify-items: center;
+
+}
+
